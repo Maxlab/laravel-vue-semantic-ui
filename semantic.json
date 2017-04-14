@@ -1,0 +1,22 @@
+{
+  "autoInstall": true,
+  "base": "resources/assets/semantic",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "../dist/semantic",
+      "uncompressed": "../dist/semantic/components/",
+      "compressed": "../dist/semantic/components/",
+      "themes": "../dist/semantic/themes/"
+    },
+    "clean": "../dist/semantic"
+  },
+  "permission": false,
+  "rtl": false,
+  "version": "2.2.10"
+}
