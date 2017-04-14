@@ -1,4 +1,4 @@
-<?php namespace Maxlab\VueElement;
+<?php namespace Maxlab\VueSemanticUi;
 
 use Illuminate\Support\ServiceProvider;
 
