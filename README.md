@@ -5,6 +5,7 @@
 ## Installation
 
 ```sh
+$ laravel new project && cd project/
 $ composer require maxlab/laravel-vue-element
 ```
 
