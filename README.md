@@ -6,7 +6,7 @@
 
 ```sh
 $ laravel new project && cd project/
-$ composer require maxlab/laravel-vue-element
+$ composer require maxlab/laravel-vue-semantic-ui
 ```
 
 Then add to config/app.php
