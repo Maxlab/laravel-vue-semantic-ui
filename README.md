@@ -1,6 +1,7 @@
 ## The Vue2 with ElemeFE/element for Laravel 5.4
 
 - Starter kit Vue2 in conjunction with SemanticUi for Laravel 5.4
+- Video [demo](https://youtu.be/8YscWJrfJmg) 5min
  
 ## Installation
 
