@@ -98,4 +98,11 @@
   }
 }
 
+.masthead.bg1 {
+  background-image: url("../images/backgrounds/1.jpg");
+}
+.masthead.bg2 {
+  background-image: url("../images/backgrounds/2.jpg");
+}
+
 

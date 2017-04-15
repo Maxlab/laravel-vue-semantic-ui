@@ -9,23 +9,6 @@
 </head>
 <body>
 
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-    <div class="ui container">
-        <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right menu">
-            <div class="item">
-                <a class="ui button">Log in</a>
-            </div>
-            <div class="item">
-                <a class="ui primary button">Sign Up</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
@@ -37,13 +20,33 @@
     <a class="item">Signup</a>
 </div>
 
-
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="ui vertical teal inverted masthead center aligned segment">
+    <div class="ui masthead bg2 center aligned segment" style="background-position: 40% 100%">
+        <!-- Following Menu -->
+        <div id="top_menu_double" class="ui large top fixed hidden menu">
+            <div class="ui container">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a class="active item">Home</a>
+                <a class="item">Work</a>
+                <a class="item">Company</a>
+                <a class="item">Careers</a>
+                <div class="right menu">
+                    <div class="item">
+                        <a class="ui button">Log in</a>
+                    </div>
+                    <div class="item">
+                        <a class="ui primary button">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="ui container">
-            <div class="ui large secondary inverted menu">
+
+        <div id="top_menu" class="ui large secondary inverted menu">
+            <div class="ui container">
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
@@ -80,7 +83,8 @@
                         bioengineered.</p>
                 </div>
                 <div class="six wide right floated column">
-                    <img src="https://semantic-ui.com/examples/assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+                    <img src="https://semantic-ui.com/examples/assets/images/wireframe/white-image.png"
+                         class="ui large bordered rounded image">
                 </div>
             </div>
             <div class="row">
@@ -102,7 +106,8 @@
                 <div class="column">
                     <h3>"I shouldn't have gone with their competitor."</h3>
                     <p>
-                        <img src="https://semantic-ui.com/examples/assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer
+                        <img src="https://semantic-ui.com/examples/assets/images/avatar/nan.jpg"
+                             class="ui avatar image"> <b>Nan</b> Chief Fun Officer
                         Acme Toys
                     </p>
                 </div>

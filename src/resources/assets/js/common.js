@@ -1,16 +1,14 @@
 $(document).ready(function () {
-  $('.masthead')
+  $('#top_menu')
     .visibility({
       once: false,
       onBottomPassed: function () {
-        $('.fixed.menu').transition('fade in');
+        $('#top_menu_double').transition('fade down');
       },
       onBottomPassedReverse: function () {
-        $('.fixed.menu').transition('fade out');
+        $('#top_menu_double').transition('fade down');
       }
     });
-
   // create sidebar and attach to menu open
-  $('.ui.sidebar')
-    .sidebar('attach events', '.toc.item');
+  $('.ui.sidebar').sidebar('attach events', '.toc.item');
 });
